@@ -17,22 +17,33 @@
 			</div>		
 		</div>
 		<div class="fill-inform">
-			<div><a class="big-button">填选信息</a></div>
+			<div class="baoming-elect"><a class="big-button">填选信息</a></div>
 			<div class="baoming-information">
 				<dl>
 					<dt>姓名：</dt>
 					<dd><input type="text"></dd>
-					<dt>性别:</dt>
-					<dd><input type="radio" checked="checked" name="sex" value="男" />男
-					<input type="radio" checked="checked" name="sex" value="女" />女</dd>
+					<dt>性别：</dt>
+					<dd><input type="radio" checked="checked" name="sex" value="男" id="sex-elect" />男
+					<input type="radio" name="sex" value="女" id="sex-elect"/>女</dd>
 					<dt>学院：</dt>
 					<dd>
 						<form action="##">
 							<select name="academic" id="academic">
-								<option value=""></option>
-								<option value=""></option>
-								<option value=""></option>
-								<option value=""></option>
+								<option value="通信与信息工程学院">通信与信息工程学院</option>
+								<option value="光电学院">光电学院</option>
+								<option value="经济管理学院">经济管理学院</option>
+								<option value="计算机科学与技术学院">计算机科学与技术学院</option>
+								<option value="外国语学院">外国语学院</option>
+								<option value="生物信息学院">生物信息学院</option>
+								<option value="网络空间安全与法学院">网络空间安全与法学院</option>
+								<option value="自动化学院">自动化学院</option>
+								<option value="体育学院">体育学院</option>
+								<option value="马克思主义学院">马克思主义学院</option>
+								<option value="理学院">理学院</option>
+								<option value="传媒艺术学院">传媒艺术学院</option>
+								<option value="软件工程学院">软件工程学院</option>
+								<option value="先进制造工程学院">先进制造工程学院</option>
+								<option value="国际学院">国际学院</option>
 							</select>
 						</form>
 					</dd>
@@ -46,17 +57,78 @@
 					<dd><input type="text"><span>点击验证</span>
 					</dd>
 				</dl>
-			</div>
-			<div class="succeed-inform">
-				<p>恭喜你，验证成功，请选择部门</p>
+				<div class="baoming-button">确认报名</div>
 			</div>
 		</div>
 		<div class="elect-section">
-			<div class="big-button">选择报名</div>
-			<div class="small-section">
-				<p class="right-bigsection">学生会：</p>
-				<input type="radio" checked="checked" name="" value="女" />综合部
-				<input type="radio" checked="checked" name="" value="女" />宣传部
+			<div class="baoming-elect"><a class="big-button">选择报名</a></div>
+			<div class="sections">
+				<div class="small-section">
+					<div class="right-bigsection">学生会：</div>
+						<span><input type="checkbox" name="" value="综合部" />
+					 	综合部</span>
+					 	<span><input type="checkbox" name="" value="宣传部" />宣传部</span>
+						<span><input type="checkbox" name="" value="学习部" />学习部</span>
+						<span><input type="checkbox" name="" value="女生部" />女生部</span>
+						<span><input type="checkbox" name="" value="权益提案部" />权益提案部</span>
+						<span><input type="checkbox" name="" value="生活服务部" />生活服务部</span>
+						<span><input type="checkbox" name="" value="文艺部" />文艺部</span>
+						<span><input type="checkbox" name="" value="体育部" />体育部</span>					
+				</div>
+				<div class="small-section">
+					<div class="right-bigsection">团委直属部：</div>
+						<span><input type="checkbox" name="" value="办公室" />
+					 	办公室</span>
+					 	<span><input type="checkbox" name="" value="组织部" />组织部</span>
+						<span><input type="checkbox" name="" value="宣传部" />宣传部</span>	
+				</div>
+				<div class="small-section">
+					<div class="right-bigsection">学生科技联合会：</div>
+						<span><input type="checkbox" name="" value="综合部" />
+					 	综合部</span>
+					 	<span><input type="checkbox" name="" value="科创竞赛部" />科创竞赛部</span>
+						<span><input type="checkbox" name="" value="项目管理部" />项目管理部</span>
+						<span><input type="checkbox" name="" value="科技人文部" />科技人文部</span>
+						<span><input type="checkbox" name="" value="信息部" />信息部</span>
+						<span><input type="checkbox" name="" value="媒体运营部" />媒体运营部</span>				
+				</div>
+				<div class="small-section">
+					<div class="right-bigsection">社团联合会：</div>
+						<span><input type="checkbox" name="" value="综合部" />
+					 	综合部</span>
+					 	<span><input type="checkbox" name="" value="宣传部" />宣传部</span>
+						<span><input type="checkbox" name="" value="社团服务部" />社团服务部</span>
+						<span><input type="checkbox" name="" value="社团活动部" />社团活动部</span>		
+				</div>
+				<div class="small-section">
+					<div class="right-bigsection">青年志愿者协会：</div>
+						<span><input type="checkbox" name="" value="综合管理部" />
+					 	综合管理部</span>
+					 	<span><input type="checkbox" name="" value="青年志愿者协会总队" />青年志愿者协会总队</span>
+						<span><input type="checkbox" name="" value="实践服务部" />实践服务部</span>
+						<span><input type="checkbox" name="" value="校青协宣传推广部" />校青协宣传推广部</span>		
+				</div>
+				<div class="small-section">
+					<div class="right-bigsection">红岩网校工作站：</div>
+						<span><input type="checkbox" name="" value="web研发部" />
+					 	web研发部</span>
+					 	<span><input type="checkbox" name="" value="移动开发部" />移动开发部</span>
+						<span><input type="checkbox" name="" value="视觉设计部" />视觉设计部</span>
+						<span><input type="checkbox" name="" value="女生部" />女生部</span>
+						<span><input type="checkbox" name="" value="运维安全部" />运维安全部</span>
+						<span><input type="checkbox" name="" value="生活服务部" />生活服务部</span>
+						<span><input type="checkbox" name="" value="产品策划及运营部" />产品策划及运营部</span>			
+				</div>
+				<div class="small-section">
+					<div class="right-bigsection">大学生艺术团：</div>
+						<span><input type="checkbox" name="" value="综合部" />
+					 	综合部</span>
+					 	<span><input type="checkbox" name="" value="团管乐团" />团管乐团</span>
+						<span><input type="checkbox" name="" value="民乐团" />民乐团</span>
+						<span><input type="checkbox" name="" value="舞蹈团" />舞蹈团</span>
+						<span><input type="checkbox" name="" value="合唱团" />合唱团</span>
+						<span><input type="checkbox" name="" value="话剧团" />话剧团</span>				
+				</div>
 			</div>
 		</div>
 	</div>
