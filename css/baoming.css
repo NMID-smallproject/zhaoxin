@@ -1,0 +1,20 @@
+.fill-inform {
+	width: 50%;
+	display: inline-block;
+}
+.baoming-information dl dt{
+	position: absolute;
+	text-align: right;
+	width: 100px;
+}
+.baoming-information dl dd{
+	position: relative;
+	margin: 3px 5px 10px 100px;
+}
+.elect-section {
+	width: 40%;
+	display: inline-block;
+	background: #e4e4e4;
+	height: 600px;
+	vertical-align: top;
+}
