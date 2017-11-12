@@ -1,0 +1,72 @@
+.fill-inform {
+	width: 47%;
+	display: inline-block;
+}
+.baoming-information dl dt {
+	text-align: right;
+	width: 100px;
+	font-size: 18px;
+	margin-top: 40px;
+}
+.baoming-information dl dd {
+	position: relative;
+	margin: -22px 5px 10px 100px;
+	font-size: 14px;
+}
+.baoming-information dl dd input {
+	width: 120px;
+    height: 20px;
+    border-top: 2px solid #b8b8b8;
+}
+#sex-elect {
+	width: 12px;
+	height: 12px;
+}
+.baoming-information dl dd span {
+	padding: 3px 13px;
+    color: #fff;
+    background: #33ff99;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.elect-section {
+	width: 50%;
+	display: inline-block;
+	height: 600px;
+	vertical-align: top;
+}
+.sections {
+	padding: 16px;
+	background: #e4e4e4;
+}
+.baoming-elect {
+	margin: 22px 25px;
+}
+.big-button {
+	padding: 6px 14px;
+    border-radius: 8px;
+    background: #e2534b;
+    color: #fff;
+    font-size: 23px;
+}
+.baoming-small-section {
+	border: 2px solid #9a9a9a;
+    padding: 17px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+.right-bigsection {
+	font-size: 22px;
+}
+.baoming-small-section span {
+	width: 160px;
+    display: inline-block;
+}
+.baoming-button {
+	width: 65px;
+    margin: 53px 113px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #e8645a;
+    color: #fff;
+}
