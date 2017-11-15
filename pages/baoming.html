@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>报名页面</title>
 	<link rel="stylesheet" type="text/css" href="../css/homepage.css">
+	<script src="../js/jquery1.js"></script> 
 	<link rel="stylesheet" type="text/css" href="../css/baoming.css">
 </head>
 <body>
@@ -52,16 +53,16 @@
 					<dt>QQ：</dt>
 					<dd><input type="text"></dd>
 					<dt>电话：</dt>
-					<dd><input type="text"><span>获取验证码</span></dd>
+					<dd><input type="text" id="phone"></dd>
 					<dt>验证码：</dt>
-					<dd><input type="text"><span>点击验证</span>
+					<dd><input type="text" id="yzma"><span><a href="##" id="yanzheng">获取验证码</a></span>
 					</dd>
 				</dl>
-				<div class="baoming-button">确认报名</div>
+				<div id="baoming-button">确认报名</div>
 			</div>
 		</div>
 		<div class="elect-section">
-			<div class="baoming-elect"><a class="big-button">选择报名</a></div>
+			<div class="baoming-elect"><a class="big-button" id="red-back">选择报名</a></div>
 			<div class="sections">
 				<div class="baoming-small-section">
 					<div class="right-bigsection">学生会：</div>
@@ -114,9 +115,7 @@
 					 	web研发部</span>
 					 	<span><input type="checkbox" name="" value="移动开发部" />移动开发部</span>
 						<span><input type="checkbox" name="" value="视觉设计部" />视觉设计部</span>
-						<span><input type="checkbox" name="" value="女生部" />女生部</span>
 						<span><input type="checkbox" name="" value="运维安全部" />运维安全部</span>
-						<span><input type="checkbox" name="" value="生活服务部" />生活服务部</span>
 						<span><input type="checkbox" name="" value="产品策划及运营部" />产品策划及运营部</span>			
 				</div>
 				<div class="baoming-small-section">
@@ -132,4 +131,6 @@
 			</div>
 		</div>
 	</div>
+
+    <script src="../js/baoming.js"></script>     
 </body>
