@@ -163,6 +163,7 @@ a {
 	background-color: #EBEBEB;
 	float: left;
 	border: none;
+	outline: none;
 }
 footer {
 	width: 80%;
