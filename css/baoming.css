@@ -1,5 +1,5 @@
 .fill-inform {
-	width: 47%;
+	width: 40%;
 	display: inline-block;
 }
 .baoming-information dl dt {
@@ -29,8 +29,12 @@
     margin-left: 20px;
     border-radius: 7px;
 }
+#yanzheng {
+	color: #fff;
+	text-decoration: none;
+}
 .elect-section {
-	width: 50%;
+	width: 57%;
 	display: inline-block;
 	height: 600px;
 	vertical-align: top;
@@ -49,6 +53,9 @@
     color: #fff;
     font-size: 23px;
 }
+#red-back {
+	background: #7f8c8c;
+}
 .baoming-small-section {
 	border: 2px solid #9a9a9a;
     padding: 17px;
@@ -62,11 +69,11 @@
 	width: 160px;
     display: inline-block;
 }
-.baoming-button {
+#baoming-button {
 	width: 65px;
     margin: 53px 113px;
     padding: 5px 10px;
     border-radius: 5px;
-    background: #e8645a;
+    background: #7f8c8c;
     color: #fff;
 }
