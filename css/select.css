@@ -2,38 +2,57 @@
 	padding: 0;
 	margin: 0;
 }
-a {
-	text-decoration: none;
-	color: #7A7A7A;
+body {
+	width:100%;
+    height:100%;
+	/*background: url("../images/back.png"),fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+	background: url("../images/back.png") no-repeat center center fixed; 
+	 background-size: cover;
 }
+.homepage {
+	width: 100%;
+	height: 700px;
+	margin: auto;
+	padding-bottom: 30px;
+	/*background: #fff;*/
+}	
 .top-title {
 	width: 100%;
 	height: 60px;
 	margin: 0 auto;
-	background: #74c7c0;
-	color: #deebf2;	
+	/*background: #74c7c0;*/
+	color: #deebf2;
+	
 }
 .top-left {
 	line-height: 60px;
 	font-size: 20px;
 	padding: 0 2%;
-	font-size: 46px;
+}
+.top-left img {
+	width: 270px;
+    height: 145px;
 }
 .middle-a {
-	width: 200px;
-	margin: -40px auto 0;
+	width: 80px;
+    margin: -135px auto 0;
 }
 .middle-a a {
-	width: 150px;
+	width: 80px;
 	padding: 3px 0;
-	margin-right: 15px;
+	margin-right: 50px;
 	border-radius: 8px;
 	text-decoration: none;
 	text-align: center;
 	display: inline-block;
-	color: #f2dedf;
-	font-size: 25px;
-	line-height: 12px;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 auto;
 }
 .top-bright {
 	width: 34px;
@@ -125,7 +144,7 @@ a {
 .select-tit {
 	width: 200px;
 	height: 50px;
-	background-color: #76CACA;
+	background-color: #6c7f90;
 	display: inline-block;
 	margin-right: 18px;
 	color: #fff;
@@ -169,6 +188,7 @@ article {
 	position: relative;
 	top: -35px;
 	right: 20px;
+	color: #fff;
 }
 .content {
 	width: 100%;
@@ -315,7 +335,7 @@ footer {
 }
 .name,.sex,.college,.phone,.stuNum {
 	font-size: 23px;
-	color: #7F8C8C;
+	color: #fff;
 	display: inline-block;
 	margin: 2px 5px 2px 2px;
 }

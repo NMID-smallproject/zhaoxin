@@ -69,12 +69,15 @@ function getData(brName,departName) {
 		});
 	})
 };
-var list = document.getElementsByTagName("select-tit");
+var list = document.getElementsByClassName("select-tit");
+console.log(list);
 $.each(list,function(i) {
 	list[i].index = i+1;
+	console.log($(this).index);
 })
 $(".select-tit").on("click", function getStudents(brName,departName) {
 	var a = $(this).index;
+	console.log(a);
 	$.ajax({
 		url: "http://120.78.51.133:8080/enroll/getStudents.enrollSystem",
 		type: "POST",

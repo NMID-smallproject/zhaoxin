@@ -4,13 +4,13 @@
 }
 .baoming-information dl dt {
 	text-align: right;
-	width: 100px;
+	width: 120px;
 	font-size: 18px;
 	margin-top: 40px;
 }
 .baoming-information dl dd {
 	position: relative;
-	margin: -22px 5px 10px 100px;
+	margin: -22px 5px 10px 120px;
 	font-size: 14px;
 }
 .baoming-information dl dd input {
@@ -60,10 +60,11 @@
 	border: 2px solid #9a9a9a;
     padding: 17px;
     background: #fff;
-    margin-bottom: 40px;
+    
 }
 .right-bigsection {
 	font-size: 22px;
+	margin: 15px 0;
 }
 .baoming-small-section span {
 	width: 160px;
@@ -75,5 +76,14 @@
     padding: 5px 10px;
     border-radius: 5px;
     background: #7f8c8c;
-    color: #fff;
+    
+}
+#baoming-button a {
+	text-decoration: none;
+	color: #fff;
+}
+#texta {
+	width: 300px;
+	height: 100px;
+	margin-left: 120px;
 }

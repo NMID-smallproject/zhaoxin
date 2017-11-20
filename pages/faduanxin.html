@@ -4,29 +4,31 @@
 	<title>发送短信</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/faduanxin.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
 </head>
 <body>
-	<div class="top-title">
-		<span class="top-left">校园招新系统</span>
-		<div class="top-bright"></div>
-		<div class="middle-a">
-			<a href="##" class="top-a1">招新管理</a>
-		</div>		
-	</div>
-	<div class="content">
-		<header>
-			<p>编辑短信</p>
-		</header>
-		<hr>
-		<div class="cnt-btn">
-			<div class="in-content">
-				<p>请编辑短信内容（模板中的每个自定义内容不超过15个字符）</p>
-				<div class="fa" contenteditable="true"></div>
-				<button>发送</button>
-			</div>
-
+	<div class="homepage">
+		<div class="top-title">
+			<span class="top-left"><img src="../images/logo.png" alt=""></span>
+			<div class="top-bright"></div>
+			<div class="middle-a">
+				<a href="##" >编辑短信</a>
+			</div>		
 		</div>
-		
+		<div class="content">
+			
+			<hr>
+			<div class="cnt-btn">
+				<div class="in-content">
+					<p>请编辑短信内容</p>
+					<div class="fa" >
+						<span>亲爱的你好，祝</span><div contenteditable="true" class="greet">asd</div>，请于</span><div contenteditable="true" class="time"></div><span>，在</span><div contenteditable="true" class="palce"></div><span>准时参加第</span><div contenteditable="true" class="actibity"></div><span>。发布者：</span><div contenteditable="true" class="sign"></div><span>。</span>
+					</div>
+					<button id="send">发送</button>
+				</div>
+			</div>			
+		</div>
 	</div>
+	<script type="text/javascript" src="../js/faduanxin.js"></script>
 </body>
 </html>
