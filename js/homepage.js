@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	
 	$(".big-section a").click(function(){
 		//var sectionName = this.value;
 		var name = parseInt($(this).attr("index"));
@@ -12,33 +11,34 @@ $(document).ready(function() {
 		    url:'http://120.78.51.133:8080/enroll/getBranches.enrollSystem',
 		    data: bigSection,
 		    success:function(data){
-	                console.log(data); 
+	                //console.log(data); 
 	                //var bigindex = $(".")
 	                var secName=0;
 	                for(secName=0; secName<data.length; secName++)
 	                {
 	                	var theName = aname[name] + secName;
-	                	console.log(theName);
+	                	//console.log(theName);
 	                	$("span[name='bName']:eq("+theName+")").text(data[secName].brName);
 	                	$("span[name='sName1']:eq("+theName+")").text(data[secName].brIntro);
 	          
 	                	$("span[name='sName2']:eq("+theName+")").text(data[secName].brDemand);
 	                	$("span[name='sName3']:eq("+theName+")").text(data[secName].brTime);
-	                	console.log(data[secName].brName);
+	                	//console.log(data[secName].brName);
 	                }  
-	                 console.log(data);  
+	                 //console.log(data);  
 		        }
 		    });
-		var nodiv = 0;
-		if (name<3){
-			nodiv = 0;
-		}
-		else if(name>=3 && name<6){
-			nodiv = 1;
-		}
-		else {
-			nodiv = 2;
-		}
+		var nodiv = parseInt(this.name);
+		console.log(nodiv);
+		// if (name<3){
+		// 	nodiv = 0;
+		// }
+		// else if(name>=3 && name<6){
+		// 	nodiv = 1;
+		// }
+		// else {
+		// 	nodiv = 2;
+		// }
 		//console.log(name);
 		if ($(".second-section:eq("+name+")").css("display")=="none"){
 			//$(".no-div").slideUp("slow");
@@ -50,7 +50,7 @@ $(document).ready(function() {
 				}
 			}//若已有 二级部门显示，则将res等于已显示的二级部门
 			//若目前无二级部门显示，则执行以下函数
-			if (res == 15) {
+			if (res == 15 ) {
 				$(".no-div:eq("+nodiv+")").slideDown("slow");
 				$(".adiv:eq("+name+")").css("display","block");
 				$(".second-section:eq("+name+")").css("left","2%");

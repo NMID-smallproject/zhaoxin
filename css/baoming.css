@@ -49,7 +49,7 @@
 .big-button {
 	padding: 6px 14px;
     border-radius: 8px;
-    background: #e2534b;
+    background: #00a5ff;
     color: #fff;
     font-size: 23px;
 }
@@ -83,7 +83,7 @@
 	color: #fff;
 }
 #texta {
-	width: 300px;
+	width: 250px;
 	height: 100px;
 	margin-left: 120px;
 }
